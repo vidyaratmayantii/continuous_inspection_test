@@ -73,6 +73,7 @@ public class UserData {
         int sum1 = a + b;
         int sum2 = a + b; // Duplikasi
         System.out.println("Sum1: " + sum1);
+        System.out.println("Sum1: " + sum1);
         System.out.println("Sum2: " + sum2); // Duplikasi
     }
 }
