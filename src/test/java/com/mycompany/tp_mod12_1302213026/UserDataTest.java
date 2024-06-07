@@ -35,6 +35,8 @@ class UserDataTest {
             assertTrue(e instanceof LoginFailedException);
             LoginFailedException ex = (LoginFailedException) e;
             assertEquals(1234, ex.getUserid());
+            assertEquals(1234, ex.getUserid());
+            assertEquals(1234, ex.getUserid());
         }
     }
 
