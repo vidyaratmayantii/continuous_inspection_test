@@ -51,7 +51,6 @@ class UserDataTest {
         UserData user = new UserData(4321, 5679);
         user.login();
         user.login(); // Login dua kali
-        user.login(); // Login tiga kali
         assertFalse(user.isLoggedIn(), "Tes gagal");
     }
 
